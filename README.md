@@ -9,7 +9,11 @@ column that has the filename from which the row came. Each CSV file should have
 the same columns. 
 
 ## Input & Output
-Please run the code as follows
+To install all the requirements first run:
+```
+$ pip install -r requirements.txt
+```
+To run the program please run the code as follows
 ```
 $ python ./csv_combiner.py ./fixtures/accessories.csv ./fixtures/clothing.csv > combined.csv
 ```
