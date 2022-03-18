@@ -6,7 +6,8 @@ Alicia Zavala
 Program that takes several CSV files as arguments and outputs a new CSV file to 
 `stdout` that contains the rows from each of the inputs along with an additional
 column that has the filename from which the row came. Each CSV file should have
-the same columns. 
+the same columns. This program uses the Pandas library, the sys module and os
+module
 
 ## Input & Output
 Please run the code as follows
