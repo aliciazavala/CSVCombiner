@@ -6,13 +6,17 @@ Alicia Zavala
 Program that takes several CSV files as arguments and outputs a new CSV file to 
 `stdout` that contains the rows from each of the inputs along with an additional
 column that has the filename from which the row came. Each CSV file should have
-the same columns. This program uses the Pandas library, the sys module and os
-module
+the same columns. 
 
 ## Input & Output
 Please run the code as follows
 ```
-$ python ./csv-combiner.py ./fixtures/accessories.csv ./fixtures/clothing.csv > combined.csv
+$ python ./csv_combiner.py ./fixtures/accessories.csv ./fixtures/clothing.csv > combined.csv
+```
+
+## Testing 
+```
+$ python -m pytest -v .\test-csv-combiner.py
 ```
 
 ## Example
